@@ -19,7 +19,8 @@ class Configuration
     {
         if ($this->isAbsolutePath($path))
             $this->_filesPath = $path;
-        $this->_filesPath = $this->_scriptPath . substr($path, 1);
+        else
+            $this->_filesPath = $this->_scriptPath . substr($path, 1);
     }
     public function setFeedArgs(array $args): string
     {
