@@ -9,6 +9,7 @@ If you can't stand the mess I've made, feel free to make a pull request.
 
 - Project was written and tested with *PHP 8.0.6*. It may work with lower PHP versions.
 - Make sure PHP is in your PATH and callable from anywhere.
+- Extension ``` extension=openssl ``` must be activated.
 
 ### Features
 
